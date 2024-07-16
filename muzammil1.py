@@ -1,71 +1,82 @@
-name="muzammil"
-"muzammil"
-id("muzammil")
-"muzammil"
-print("muzammil")
-print(name)
-name[0]
-name[3]
-name[8]
-name[-2]
-name[7]
-name[:]
-name[0:3]
-name[0:5]
-name[1:3]
-name[3:6]
-name[2:6]
-name[::-1]
-name[::-2]
-name[::2]
-name[1::2]
-name[2::4]
-name[0::6]
-name[0::-7]
-dir(name)
-name.upper()
-name.title()
-name.join("sergio")
-tuple1=1,6.8,"muzammil",True,6+9j
-tuple1
-dir(tuple1)
-type(tuple1)
-tuple1[0]
-tuple1[1]
-tuple1[2]
-tuple1[:]
-dir(name)
-name.upper()
-tuple1.count(1)
-tuple1.index(6+9j)
-tuple1=[1,6.8,"muzammil",True,6+9j]
-type(tuple1)
-dir(tuple1)
-tuple1[0]
-tuple1[1]
-tuple[3]
-tuple1[:]
-dir(name)
-name.upper()
-tuple1.count(2)
-tuple1.count(True)
-tuple1.index(6+9j)
-tuple1
-tuple1[0]
-tuple1[2]
-tuple1[4]
-tuple1[1]
-tuple1[3]
-tuple1[5]
-tuple1[2][0:4]
-tuple1[2][0:8]
-tuple1[3]
-tuple1[2][2:5]
-tuple1.append(10)
-tuple1
-tuple1.insert(0,2)
-tuple1
-list2=[1,8.4,'ramos',True,10+15j]
-tuple1.append(list2)
-tuple1
-list2
+'''*****
+   *****
+   *****
+   *****
+   *****
+   '''
+for value in range (0,5):
+    print('*****') 
+
+''' 12345
+    12345
+    12345
+    12345
+    12345'''
+for value in range (0,5):
+    print('12345') 
+
+input6=int(input('enter a value'))
+for value in range(input6):
+    print('12345')
+    
+'''
+   *****
+   ****
+   ***
+   **
+   *   '''   
+
+list(range(5,0,-2))
+4*'*'
+1*'*'
+for value in range(5,0,-1):
+    print(value*'*')
+
+'''
+   54321
+   54321
+   54321
+   54321
+   54321 '''
+for value in range(0,5):
+    print('54321')
+
+input6=int(input('enter a value'))    
+for value in range(input6):
+    print('54321')
+
+''' 
+   *
+   **
+   ***
+   ****
+   **** '''
+list(range(5,0,-1))    
+5*'*'
+for value in range(0,7):
+    print(value*'*')
+
+'''
+   1
+   12
+   123
+   1234
+   12345'''
+
+for value in range(0,7):
+    print(value*'*',end =' ')
+
+for row in range(1,7):
+    for col in range(1,row):
+        print(col,end='')
+    print()     
+
+for row in range(7,1,-1):
+    for col in range(1,row):
+        print(col,end='')
+    print()    
+
+
+
+
+    
